@@ -1,4 +1,4 @@
-##### A small script to email images using only bash
+#### A small script to email images using only bash
 This script ships screenshots from every camera dir on a unifi device to your email recipients. To send out 9am screenshots add a crontab like this
 ```crontab
 58 8 * * * /usr/local/bin/email-images.sh 09
