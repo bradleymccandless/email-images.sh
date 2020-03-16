@@ -48,4 +48,4 @@ wait_for_screenshot(){
   compose_emails $1
 }
 
-wait_for_screenshot $1 & done
+wait_for_screenshot $1 &
