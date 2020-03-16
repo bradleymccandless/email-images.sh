@@ -41,11 +41,8 @@ EOF
 fi
 }
 
-wait_for_screenshot(){
-  for folder in $(ls $screenshot_dir); do \
-    inotifywait -e delete_self -t 3720 $screenshot_dir/$folder/$1.jpg & done
+for folder in $(ls $screenshot_dir); do \
+  inotifywait -e delete_self -t 3720 $screenshot_dir/$folder/$1.jpg & done
   wait
   compose_emails $1
 }
-
-wait_for_screenshot $1 &
