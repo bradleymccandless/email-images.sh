@@ -6,5 +6,5 @@ This script ships screenshots from every camera dir on a unifi device to your em
 Make sure to install inotify-tools. I posted the script here because it has a few features that I love:
 
 - Send emails using only bash (ok, ok. bash+openssl).
-- SMTP pipelining. Reuse the TLS connection for all recipients instead of starting one per each recipient.
+- SMTP pipelining. Reuse the TLS connection and AUTH for all recipients instead of using one for each recipient.
 - inotify waits for all the new screenshots to land on the disk.
