@@ -7,4 +7,4 @@ Make sure to install inotify-tools. I posted the script here because it has a fe
 
 - Send emails using only bash (ok, ok. bash+openssl).
 - SMTP pipelining. Reuse the TLS connection and AUTH for all recipients instead of using one for each recipient.
-- inotify waits for all the new screenshots to land on the disk.
+- inotify waits (efficiently) for all the new screenshots to land on the disk.
