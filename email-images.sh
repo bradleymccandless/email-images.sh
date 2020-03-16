@@ -20,7 +20,6 @@ Data
 From: Autobot <bot@domain.com>
 To: <$email>
 Subject: Screenshot Images
-Reply-To: Autobot <bot@domain.com>
 Mime-Version: 1.0
 Content-Type: multipart/mixed; boundary=-
 
